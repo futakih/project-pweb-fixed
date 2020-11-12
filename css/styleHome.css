@@ -1,0 +1,425 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #BEDAE8;
+    line-height: 1.65;
+    
+}
+
+h1{
+    font-family:'Teko', sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif
+}
+.container{
+    width: 1300px;
+    margin: auto;
+}
+.header{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+
+}
+.menubar{
+    /* background: yellowgreen; */
+    font-family: 'Teko', sans-serif;
+    font-size: 36px;
+    display: flex;
+    flex: 9;
+    justify-content: space-around;
+    padding: 20px;
+   
+}
+.menubar a{
+    font-weight: 400px;
+}
+
+.mid{
+    font-family: forte;
+    font-size: 31px;
+    font-weight: 200px;
+    color:  #0074C1;
+}
+a{
+    text-decoration:none ;
+    color: black;
+}
+.right{
+    /* background-color: yellow; */
+    flex: 1;
+    display: flex;
+    padding: 20px ;
+    justify-content: space-between;
+    
+    
+}
+.right a{
+    font-size: 30px;
+    font-family: 'Teko', sans-serif; 
+    color: #0074C1; 
+}
+
+.right img{
+   width: 40px;
+   height: 40px;
+}
+.logo img{
+    display: flex;
+    width: 300px ;
+    margin: auto;
+
+}
+.main{
+    display: flex;
+    /* background-color: wheat; */
+    justify-content: space-around;
+
+}
+
+.layout1 img{
+    width: 700px;
+    margin-left: 30px;
+
+}
+
+.layout2{
+    flex-direction: column;
+    line-height: 1; 
+    text-justify: auto;
+    width: 400px;
+
+}
+.layout2 img{
+    display: flex;
+    width: 140px;
+    margin: auto;
+
+}
+.layout2 h1{
+    font-size: 38px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.layout2 p{
+    line-height: 1.6;
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.eksplore h1{
+    color: #0074C1;
+    font-size: 120px;
+    text-align: center;
+}
+.layout3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.layout3 img{
+    margin: 20px;
+}
+.layout3 h1{
+    /* background-color: lightblue; */
+    color: #0074C1;
+    margin-top: 50px;
+}
+
+.layout4{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(182, 182, 182); */
+  
+}
+.layout4 img{
+    display: flex;
+    width: 120px ;
+    height:150px ;
+}
+
+.main2{
+    display: flex;
+    margin: 20px ;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 900px;
+}
+.containermain2{
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    justify-content: space-between;
+}
+
+.subjudul{
+    font-size: 50px;
+    margin: 0pc;
+}
+.preview img{
+    width: 450px;
+    height: 250px;
+}
+
+.submain{
+    display: flex;
+    margin-left: 10px;
+
+}
+
+.teks{
+    width: 450px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.teks :nth-child(2){
+    color:#0074C1;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+}
+.teks h1{
+    margin: 0px;
+    line-height: 1.2;
+}
+.teks p{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.submain button img{
+    width: 44px ;
+    height: 44px;
+}
+
+.main3{
+    display: flex;
+    box-sizing: border-box;
+    margin: 20px;
+    justify-content: space-between;
+    height: 800px;
+}
+.main3 h2{
+    font-family: 'Teko', sans-serif;
+    font-size: 100px ;
+    writing-mode: vertical-rl;
+    line-height: 1;
+    margin: 0px;
+    text-align: center;
+}
+.vertikalright{
+    /* background-color: yellow; */
+    color: #f7f0f0;
+    display: flex;
+    width: 200px;
+    margin: 0px 0px;
+    line-height: 1;
+    letter-spacing: 5px;
+    order: 1;
+}
+.containermain3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    order: 2;
+}
+
+.buttonleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    order: 3;
+}
+.buttonleft img{
+    width: 44px;
+    height: 44px;
+    margin: 10px;
+}
+.teks2{
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.teks2 h1{
+    text-align: center;
+    margin: 0px;
+    line-height: 1.2;
+}
+.teks2 p{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.main4{
+    height: 700px;
+}
+.subjudul4{
+    font-size: 50px;
+    text-align: center;   
+}
+.subjudul4 h1{
+    color: #0074C1 ;
+    margin: 0px;
+}
+.container4{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 20px;
+    height: 480px;
+}
+.submain4{
+    flex: 3;
+    margin: 20px;
+    justify-content: space-between;
+}
+.submain4 img{
+    width: 350px;
+}
+.boxpaket{
+    background-color: white;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px 0px 50px;
+    box-sizing: border-box;
+    margin: 10px 10px 0px 10px;
+    border-radius: 10px;
+}
+.boxpaket h1{
+    color:  #0074C1;
+    text-align: center;
+}
+.searchform{
+    box-sizing : border-box;
+    width: 100%;
+	padding: 11px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+    border: 2px solid  #05578d;
+    border-radius: 10px;
+}
+.teks4{
+    margin-top: 0px ;
+   
+}
+.teks4 p{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.teks4 h1{
+    margin: 1px;
+    line-height: 1.2;
+}
+
+.tombol{
+	background:#0074C1;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+    padding: 15px 25px;
+    margin-top: 10px;
+}
+
+.main5{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+   
+}
+.submain5{
+    background-color: rgba(0, 0, 0, 0.151);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 400px;
+    height: 350px;
+}
+.gambarback1{
+    background-image: url(/img/hotel\ dan\ penginapan.png);
+    background-size: cover;
+    
+}
+.gambarback2{
+    background-image: url(/img/geti.png);
+    background-size: cover;
+}
+
+.gambarback3{
+    background-image: url(/img/tembok\ rejo.png);
+    background-size: cover;
+}
+.submain5 p{
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+    margin: 1px 20px;
+    color: white ;
+}
+.submain5 h1{
+    font-size: 30px;
+    margin: 0px 20px 20px;
+    color: white;
+    line-height: 1;
+}
+
+.footer{
+    height: 260px;
+    display: flex;
+    background-image: url(/img/footer.png);
+    background-size: cover;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px;
+}
+.subfoot{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+}
+
+.subfoot img{
+    width: 200px;
+    margin: auto;
+}
+.logofoot{
+    display: flex;
+    
+}
+.subfoot p{
+    font-size: 30px;
+    font-family:'Teko', sans-serif;
+    margin: 5px 0px; 
+    color: #0074C1;  
+}
+.lokasi{
+    display: flex;
+}
+.lokasi img{
+    width: 12px;
+    height: 18px;
+    margin: auto 10px;
+}
+.email{
+    display: flex;
+
+}
+.email img{
+    width: 14px;
+    height: 12px;
+    margin: auto 10px;
+}
+.sosmed{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 60px;
+}
+.sosmed a img{
+    margin: 10px;
+    width: 18px;
+    height: 22px;
+}

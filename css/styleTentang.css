@@ -1,0 +1,196 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #BEDAE8;
+    line-height: 1.65;
+    
+    
+}
+
+h1{
+    font-family: 'Teko', sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif
+}
+.container{
+    width: 1300px;
+    margin: auto;
+    background-color: #BEDAE8; 
+}
+.header{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+
+}
+.menubar{
+    /* background: yellowgreen; */
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex: 9;
+    justify-content: space-around;
+    padding: 20px;
+   
+}
+.menubar a{
+    font-weight: 400px;
+}
+
+.mid{
+    font-family: forte;
+    font-size: 31px;
+    font-weight: 200px;
+    color:  #0074C1;
+}
+a{
+    text-decoration:none ;
+    color: black;
+}
+.right{
+    /* background-color: yellow; */
+    flex: 1;
+    display: flex;
+    padding: 20px ;
+    justify-content: space-between;
+    
+    
+}
+.right a{
+    font-size: 30px;
+    font-family: 'Teko', sans-serif; 
+    color: #0074C1; 
+}
+
+.right img{
+   width: 40px;
+   height: 40px;
+}
+.logo img{
+    display: flex;
+    width: 300px ;
+    margin: auto;
+
+}
+
+.main{
+    display: flex;
+    /* background-color: wheat; */
+    justify-content: space-around;
+    flex-direction: column;
+    
+
+}
+
+.judul{
+    font-family: 'Teko', sans-serif;
+    margin-top: 60px;
+    margin-bottom: 40px;
+
+}
+.judul h2 {
+    
+    font-size: 100px;
+    margin: 0px;
+    text-align: left;
+    color: #0074C1;
+    line-height: 40px;
+}
+.judul h1 {
+    
+    font-size: 80px;
+    margin-left: 40px;
+    line-height: 1px;
+}
+
+.container1{
+    width: 1000px;
+    display: flex;    
+    justify-content: space-around;
+    margin: auto;
+}
+
+.container1 img{
+    width: 400px;
+    height: 300px;
+}
+.penjelasan{
+    width: 500px;
+    text-align: justify;
+}
+
+.buttonback{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.buttonback img{
+    width: 44px;
+    height: 44px;
+    
+}
+
+.footer{
+    height: 260px;
+    display: flex;
+    background-image: url(/img/footer.png);
+    background-size: cover;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px;
+}
+.subfoot{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+}
+
+.subfoot img{
+    width: 200px;
+    margin: auto;
+}
+.logofoot{
+    display: flex;
+    
+}
+.subfoot p{
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+    margin: 5px 0px; 
+    color: #0074C1;  
+}
+.lokasi{
+    display: flex;
+}
+.lokasi img{
+    width: 12px;
+    height: 18px;
+    margin: auto 10px;
+}
+.email{
+    display: flex;
+
+}
+.email img{
+    width: 14px;
+    height: 12px;
+    margin: auto 10px;
+}
+.sosmed{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 60px;
+}
+.sosmed a img{
+    margin: 10px;
+    width: 18px;
+    height: 22px;
+
+}

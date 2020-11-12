@@ -1,0 +1,191 @@
+body{
+    background-color: rgb(174, 232, 236);
+    line-height: 1.65;
+	
+}
+ 
+h1{
+    font-family: teko;
+	text-align: center;
+    font-size: 90px;
+    color: #0074C1;
+    line-height: 10px;
+}
+ 
+h2{
+    font-family: teko;
+    text-align: center;
+    font-size: 40px;
+    color: #0074C1;
+    
+}
+a{
+  text-decoration: none;
+  color: black;  
+}
+
+.container{
+    width: 1300px;
+    margin: auto;
+   
+}
+img{
+    display: flex;
+    margin: auto;
+    width: 400px;
+}
+
+.kotak_Registrasi{
+    
+    width: 800px;
+	background: white;
+	margin: 0px auto;
+    padding: 10px 30px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    border:solid #0074C1 1px;
+    border-top: none;
+}
+
+.kotak_Registrasi p{
+    font-family: teko;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.layout{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    background-color: white;
+}
+
+
+.layout div{
+    flex: 1;
+    border: solid #0074C1 1px;
+}
+.layout div:hover{
+    background-color: #ABC7DB;
+}
+.layout div:visited{
+    background-color: #ABC7DB;
+}
+
+ 
+label{
+    font-family: teko;
+    font-size: 30px;
+}
+ 
+.form_Registrasi{
+    box-sizing : border-box;
+    width: 100%;
+	padding: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border: 2px solid  #05578d;
+    border-radius: 5px; 
+}
+.form2{
+    display: flex;
+}
+
+.kotak_Registrasi :nth-child(3){
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.tombol{
+	background:#0074C1;
+	color: white;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+    padding: 5px ;
+    margin-top: 10px;
+    font-family: teko;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.kotak_Registrasi form{
+    margin: auto 10px;
+}
+
+.buttonback{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.buttonback img{
+    width: 44px;
+    height: 44px;
+    
+}
+
+.footer{
+    height: 260px;
+    display: flex;
+    background-image: url(/img/footer.png);
+    background-size: cover;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px;
+    margin-top: 100px;
+}
+.subfoot{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+}
+
+.subfoot img{
+    width: 200px;
+    margin: auto;
+}
+.logofoot{
+    display: flex;
+    
+}
+.subfoot p{
+    font-size: 30px;
+    font-family: teko;
+    margin: 5px 0px; 
+    color: #0074C1;  
+}
+.lokasi{
+    display: flex;
+}
+.lokasi img{
+    width: 12px;
+    height: 18px;
+    margin: auto 10px;
+}
+.email{
+    display: flex;
+
+}
+.email img{
+    width: 14px;
+    height: 12px;
+    margin: auto 10px;
+}
+.sosmed{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 60px;
+}
+.sosmed a img{
+    margin: 10px;
+    width: 18px;
+    height: 22px;
+
+}
