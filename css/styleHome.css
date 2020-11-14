@@ -341,17 +341,17 @@ a{
     height: 350px;
 }
 .gambarback1{
-    background-image: url(/img/hotel\ dan\ penginapan.png);
+    background-image: url(/project-pweb-fixed/img/hotel\ dan\ penginapan.png);
     background-size: cover;
     
 }
 .gambarback2{
-    background-image: url(/img/geti.png);
+    background-image: url(/project-pweb-fixed/img/geti.png);
     background-size: cover;
 }
 
 .gambarback3{
-    background-image: url(/img/tembok\ rejo.png);
+    background-image: url(/project-pweb-fixed/img/tembok\ rejo.png);
     background-size: cover;
 }
 .submain5 p{
@@ -370,7 +370,7 @@ a{
 .footer{
     height: 260px;
     display: flex;
-    background-image: url(/img/footer.png);
+    background-image: url(/project-pweb-fixed/img/footer.png);
     background-size: cover;
     border-top-left-radius: 20px ;
     border-top-right-radius: 20px;

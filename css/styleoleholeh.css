@@ -201,7 +201,7 @@ a{
 .footer{
     height: 260px;
     display: flex;
-    background-image: url(/img/footer.png);
+    background-image: url(/project-pweb-fixed/img/footer.png);
     background-size: cover;
     border-top-left-radius: 20px ;
     border-top-right-radius: 20px;
@@ -222,7 +222,7 @@ a{
 }
 .subfoot p{
     font-size: 30px;
-    font-family: 'Teko','Sans Serif' ;
+    font-family:'Teko', sans-serif;
     margin: 5px 0px; 
     color: #0074C1;  
 }
@@ -253,9 +253,7 @@ a{
     margin: 10px;
     width: 18px;
     height: 22px;
-
 }
-
 
 
 

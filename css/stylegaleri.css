@@ -107,22 +107,31 @@ a{
     color: black;
     width: 290px;
     height: 200px;
-
-    
-    
 }
 
 .desc h2{
     margin: 0px;
     font-size: 40px;
+}
 
+.buttonback{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+
+}
+.buttonback img{
+    width: 44px;
+    height: 44px;
     
 }
 
 .footer{
     height: 260px;
     display: flex;
-    background-image: url(/img/footer.png);
+    background-image: url(/project-pweb-fixed/img/footer.png);
     background-size: cover;
     border-top-left-radius: 20px ;
     border-top-right-radius: 20px;
@@ -143,7 +152,7 @@ a{
 }
 .subfoot p{
     font-size: 30px;
-    font-family: teko;
+    font-family:'Teko', sans-serif;
     margin: 5px 0px; 
     color: #0074C1;  
 }
@@ -167,12 +176,11 @@ a{
 .sosmed{
     display: flex;
     margin-top: 50px;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 60px;
 }
 .sosmed a img{
     margin: 10px;
     width: 18px;
     height: 22px;
-
 }
