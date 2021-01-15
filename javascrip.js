@@ -8,7 +8,7 @@ let btnlog=document.getElementById('btnlogin');
 function validasi(){
     var username = document.forms["iniform"]["username"].value;
     var password = document.forms["iniform"]["password"].value;
-    if( username == "pweb_C" && password == "123123"){
+    if( username == "Taufik" && password == "123123"){
         modalsukses.classList.add("normal");
         body.style.background='green';
     }
