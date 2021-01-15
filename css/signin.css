@@ -1,3 +1,59 @@
+.modalsukses{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+
+}
+.modalgagal{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    visibility: hidden;
+    
+}
+
+.normal{
+    visibility: visible;
+  
+}
+.suksesmodal{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: flex;
+    color: rgb(230, 241, 223);
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: #43b401d2;
+    width: 100%; 
+    height: 70px;
+}
+
+.gagalmodal{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: flex;
+    color: rgb(230, 241, 223);
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(177, 6, 6, 0.733);
+    width: 100%; 
+    height: 50px;
+
+}
 body{
     background-color: rgb(174, 232, 236);
     line-height: 1.65;
@@ -35,7 +91,7 @@ img{
     width: 400px;
 }
 
-.kotak_Registrasi{
+.kotak_masuk{
     
     width: 800px;
 	background: white;
@@ -45,6 +101,31 @@ img{
     box-sizing: border-box;
     border:solid #0074C1 1px;
     border-top: none;
+}
+.btnlog{
+    cursor: pointer;
+}
+.kotak_masuk p{
+    font-family: teko;
+    font-size: 40px;
+    text-align: center;
+
+}
+.kotak_Registrasi{
+
+    display: none;
+    width: 800px;
+	background: white;
+	margin: 0px auto;
+    padding: 10px 30px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    border:solid #0074C1 1px;
+    border-top: none;
+}
+.normal{
+    display: block;
+    visibility: visible;
 }
 
 .kotak_Registrasi p{
@@ -66,7 +147,9 @@ img{
     width: 800px;
     background-color: white;
 }
-
+.hidden{
+    display: none;
+}
 
 .layout div{
     flex: 1;
@@ -130,6 +213,9 @@ label{
     height: 44px;
     
 }
+.regBtn{
+    cursor: pointer;
+}
 
 .footer{
     height: 260px;
@@ -187,3 +273,5 @@ label{
     width: 18px;
     height: 22px;
 }
+
+
