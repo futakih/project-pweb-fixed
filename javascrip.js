@@ -10,7 +10,6 @@ function validasi(){
     var password = document.forms["iniform"]["password"].value;
     if( username == "Taufik" && password == "123123"){
         modalsukses.classList.add("normal");
-        body.style.background='green';
     }
     else{
         modalgagal.classList.add("normal");
